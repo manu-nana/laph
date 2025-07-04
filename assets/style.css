@@ -1,6 +1,14 @@
+@font-face {
+    font-family: 'miau';
+    src: url('DK Crayon Crumble.ttf') format('truetype');
+}
 
+@font-face {
+    font-family: 'affs';
+    src: url('OldNewspaperTypes.ttf') format('truetype');
+}
 
-body { 
+body {
     background: url(d.jpg);
     background-size: contain;
     background-attachment: fixed;
@@ -8,10 +16,10 @@ body {
 
 #container {
     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-between;
-     padding: 4rem;
-     gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4rem;
+    gap: 1rem;
 }
 
 .cartao {
@@ -21,11 +29,11 @@ body {
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
-    border-radius: 20px;    
+    border-radius: 20px;
 }
 
 
- 
+
 .cartao__conteudo {
     text-align: center;
     height: 100%;
@@ -47,8 +55,8 @@ body {
     backface-visibility: hidden;
     font-family: miau, Helvetica, sans-serif;
     background: linear-gradient(to right, #eea3a3, #f48fb1, #ffd485, #a1ccbe, #b2d7dd, #8ca9bd);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .cartao__conteudo p {
@@ -67,7 +75,7 @@ body {
     color: rgb(218, 188, 188);
     font-weight: 700;
     padding-top: 25px;
-    font-size:  23px;
+    font-size: 23px;
 }
 
 .cartao.active .cartao__conteudo {
@@ -93,7 +101,7 @@ body {
 footer {
     margin-left: 700px;
     margin-right: 500px;
-    margin-bottom: 1px; 
+    margin-bottom: 1px;
     background-color: #eecaca;
     border-radius: 25px;
     display: flex;
@@ -103,10 +111,9 @@ footer {
     font-size: 25px;
     bottom: 0;
     width: 30%;
-    justify-content: center;
-    
-}                           
+    justify-content: left;
 
+}
 
 @media (max-width: 560px) {
     .cartao {
@@ -114,7 +121,7 @@ footer {
     }
 
     .cartao__conteudo h3 {
-        font-size: 3vw      ;
+        font-size: 3vw;
     }
 
 }
