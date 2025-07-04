@@ -102,13 +102,12 @@ footer {
     margin-left: 700px;
     margin-right: 500px;
     margin-bottom: 1px;
-    background-color: #eecaca;
     border-radius: 25px;
     display: flex;
     color: rgb(189, 118, 118);
     position: fixed;
     font-family: miau, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 15px;
     bottom: 0;
     width: 30%;
     justify-content: left;
