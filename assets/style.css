@@ -104,19 +104,13 @@ header {
 
 
 footer {
-    background-color: rgb(113, 152, 209);
-    color: white;
-    position: fixed;
-    bottom: 0;
+    color: rgb(138, 81, 81);
+    bottom: 1.5;
     width: 100%;
+    border-radius: 25px;
     height: 2rem;
 }
 
-footer p {
-    text-align: center;
-    font-size: 0.6rem;
-    margin-top: 0.5rem;
-}
 
 footer p {
     text-align: center;
